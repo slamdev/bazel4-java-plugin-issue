@@ -26,4 +26,4 @@ jobs:
           echo ${{ matrix.bazel }} > .bazelversion
       - name: Build
         run: |
-          ./baseliskw build //... --disk_cache=~/.cache/bazel
+          ./baseliskw build //...
